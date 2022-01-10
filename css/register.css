@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav{
+    color: white; 
+    text-decoration: none;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    background: rgba(0, 71, 71, 0.644) url("https://media.istockphoto.com/vectors/vector-background-of-the-veterinary-icons-vector-id490369184?s=612x612") repeat-y scroll 50% 50%;
+    background-image: image("background.png");
+    line-height: 2.5;
+    text-align: center;
+}
+.register{
+    color: white; 
+    background-color: rgba(0, 27, 27, 0.9);
+    margin-left: 100px; 
+    margin-right: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.582);   
+    padding: 10px; 
+}
+.main{
+    color: white; 
+    background-color: rgba(0, 27, 27, 0.9);
+    margin-left: 100px; 
+    margin-right: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.582);   
+    padding: 10px; 
+}
+.header{
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 45px;
+}
+h1{
+    font-weight: 500;
+    background-color: rgba(0, 27, 27, 0.9);
+    color: white; 
+    letter-spacing: 4px;
+    font-size: 64px;
+    line-height: 8rem;
+    text-transform: uppercase;
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px rgb(110, 177, 177);
+}
+h2{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+h2 img{
+    max-width: 9%;
+    border:black 3px solid; 
+}
+input{
+    border: 1px solid black;
+}
+.footer{
+    background-color: rgb(30, 32, 32);
+    color: rgba(255, 255, 255, 0.589); 
+    margin-top: 50px;
+    line-height: 0;
+    padding: 2px; 
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+button{
+    border-color: black;
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+h3 a{
+    font-size: 20px;
+    padding-top: -20px;
+}

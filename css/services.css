@@ -1,0 +1,37 @@
+.pet_services{
+    max-width: 15%;
+}
+p{
+    line-height: 1.2;
+}
+.services-container{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    line-height: 2;
+    margin-left: 25px;
+}
+.service{
+    background-color: rgb(255, 255, 255);
+    border: black 1px solid; 
+    color: rgb(0, 39, 39); 
+    max-width: 250px;
+    transition: all .2s ease;
+    vertical-align: middle;
+}
+.service:hover{
+    box-shadow: 3px rgba(255, 255, 255, 0.5);
+    transform:scale(1.1);
+}
+ul, ol{
+    text-align: left;
+}
+h4{
+    text-decoration: underline;
+    height: 55px;
+}
+.premium, .basic{
+    padding-top: 15px;
+}
+.address{
+    line-height: 0;
+}

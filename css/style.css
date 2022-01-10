@@ -1,0 +1,17 @@
+.error{
+    border-color: red;
+}
+.error-label{
+    color: red; 
+}
+.my-card{
+    width: 200px; 
+    border-color: gray;
+    padding: 5px;
+    margin: 5px; 
+    display: inline-flex; 
+    color: black; 
+}
+.highlight{
+    background-color: yellowgreen;
+}
