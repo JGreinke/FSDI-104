@@ -134,13 +134,16 @@ function removePet (index){
     document.getElementById(index).remove(); //remove the pet from html
 }
 function searchPet(){
-    let searchString = document.getElementById("searchInput").value;
-    
+    let searchString = document.getElementById("gsearch").value;
+
     saloon.pets.forEach(function callBack(pet,value) {
         if(searchString.toLowerCase()===pet.name.toLowerCase()){
-            document.getElementById(value).classList.add("highlight");   
+            document.getElementById(pet.id).classList.add("highlight");   
         }
     });
+}
+function registeredPets(){
+    alert("Total number of registered pets is:",saloon.pets.length); 
 }
 function init(){
     displayInfo(); 
